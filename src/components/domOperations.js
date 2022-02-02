@@ -7,14 +7,13 @@ let resultRhombus = document.getElementById('ploschadRomba');
 let inputRhombusWidth = document.getElementById('dlinaStoronyRomba');
 let inputRhombusHeight = document.getElementById('dlinaVisotyRomba');
 
-function showResultInDomKvadrat() {
-    resultSquare.innerHTML = getArea(inputSquare.value)
-}
-
-function showResultInDomParalelograma() {
-    resultParallelogram.innerHTML = getArea(inputParallelogramWidth.value, inputParallelogramHeight.value)
-}
-
-function showResultInDomRomba() {
-    resultRhombus.innerHTML = getArea(inputRhombusWidth.value, inputRhombusHeight.value)
+export {
+    resultSquare,
+    inputSquare,
+    resultParallelogram,
+    inputParallelogramWidth,
+    inputParallelogramHeight,
+    resultRhombus,
+    inputRhombusWidth,
+    inputRhombusHeight
 }

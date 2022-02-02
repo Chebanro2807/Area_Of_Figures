@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HW</title>
+    <script src="dist/main.js" defer></script>
 </head>
 <body>
 <style>
@@ -28,7 +29,7 @@
             <pre>S = a * a</pre>
             <form>
                 <input type="number" id="dlinaStoroniKvadrata" name="dlinaStoroniKvadrata" placeholder="Длина стороны">
-                <button type="button" onclick="showResultInDomKvadrat()">Результат</button>
+                <button type="button" id="showResultInDomKvadrat">Результат</button>
             </form>
         </td>
         <td id="ploschadKvadrata"></td>
@@ -60,7 +61,7 @@
             <form>
                 <input type="number" id="dlinaStoronyParalelograma" name="dlinaStoronyParalelograma" placeholder="Длина стороны">
                 <input type="number" id="dlinaVisotyParalelograma" name="dlinaVisotyParalelograma" placeholder="Длина высоты">
-                <button type="button" onclick="showResultInDomParalelograma()">Результат</button>
+                <button type="button" id="showResultInDomParalelograma">Результат</button>
             </form>
         </td>
         <td id="ploschadParalelograma"></td>
@@ -76,14 +77,12 @@
             <form>
                 <input type="number" id="dlinaStoronyRomba" name="dlinaStoronyRomba" placeholder="Длина стороны">
                 <input type="number" id="dlinaVisotyRomba" name="dlinaVisotyRomba" placeholder="Длина высоты">
-                <button type="button" onclick="showResultInDomRomba()">Результат</button>
+                <button type="button" id="showResultInDomRomba">Результат</button>
             </form>
         </td>
         <td id="ploschadRomba"></td>
     </tr>
 </table>
-<script src="domOperations.js"></script>
-<script src="libraryFormula.js"></script>
 </body>
 </html>
 
